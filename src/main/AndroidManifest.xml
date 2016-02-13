@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutos.maths.mathstutor" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".view.SplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/FullscreenTheme" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.TestScreen"
+            android:label="@string/title_activity_test_screen">
+        </activity>
+        <activity
+            android:name=".view.TestDescription"
+            android:label="@string/title_activity_test_description" >
+        </activity>
+        <activity
+            android:name=".view.Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".view.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".view.Credits"
+            android:label="@string/title_activity_credits" >
+        </activity>
+        <activity
+            android:name=".view.InputName"
+            android:label="@string/title_activity_input_name" >
+        </activity>
+        <activity
+            android:name=".view.TutorialDescription"
+            android:label="@string/title_activity_tutorial_description" >
+        </activity>
+        <activity
+            android:name=".view.WelcomeMessage"
+            android:label="@string/title_activity_welcome_message" >
+        </activity>
+        <activity
+            android:name=".view.Animation"
+            android:label="@string/title_activity_animation" >
+        </activity>
+    </application>
+
+</manifest>
